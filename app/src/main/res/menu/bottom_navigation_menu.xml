@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_admission"
+        android:enabled="true"
+        android:icon="@drawable/admission"
+        android:title="Admission"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_clinical_pathway"
+        android:enabled="true"
+        android:icon="@drawable/clinical_pathway"
+        android:title="Clinical Pathway"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_contacts"
+        android:enabled="true"
+        android:icon="@drawable/contacts"
+        android:title="Contacts"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_ed_policies"
+        android:enabled="true"
+        android:icon="@drawable/ed_policies"
+        android:title="ED Policies"
+        app:showAsAction="ifRoom" />
+</menu>
